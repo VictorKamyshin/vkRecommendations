@@ -1,0 +1,13 @@
+# User-specific stuff:
+.idea/*
+
+
+## File-based project format:
+*.iws
+
+*.pyc
+db.sqlite3
+myvenv
+__pycache__
+local_settings.py
+vkTheme/secret_data.py
