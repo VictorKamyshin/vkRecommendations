@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<form action="{% url 'authorisation'%}" method="POST">
+<form action="{% url 'success'%}" method="POST">
 {% csrf_token %}
 {% for field in form.visible_fields %}
 	<div class="col-md-4">

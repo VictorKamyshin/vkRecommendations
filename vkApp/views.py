@@ -23,5 +23,5 @@ def auth(request):
             api = vk.API(session)
             return HttpResponse("Successfully authorised")
         except :
-            return HttpResponseRedirect('/hello')
+            return HttpResponseRedirect('/authorisation')
     return HttpResponse("Hello World!")

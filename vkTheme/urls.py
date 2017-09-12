@@ -19,6 +19,6 @@ from vkApp.views import my_view, auth
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^hello/', my_view, name='hello'),
-    url(r'authorisation/',auth,name='authorisation'),
+    url(r'^authorisation/', my_view, name='authorisation'),
+    url(r'success/',auth,name='success'),
 ]
